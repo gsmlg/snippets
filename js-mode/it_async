@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: BBD test it async
+# key: ita
+# binding: direct-keybinding
+# --
+it('${1:...somthing...', function(done){
+    $0
+});
