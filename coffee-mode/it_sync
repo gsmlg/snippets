@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: BBD test it sync
+# key: its
+# binding: direct-keybinding
+# --
+it '${1:someting...}', ->
+  $0
