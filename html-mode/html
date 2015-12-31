@@ -1,8 +1,8 @@
 # -*- mode: snippet; require-final-newline: nil -*-
 # name: JavaScript Template in script tag
-# key: scriptt
+# key: html
 # binding: direct-keybinding
 # --
-<script id="$0" type="text/template">
-    $1
-</script>
+<html class="html">
+    $0
+</html>
