@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: selector
+# key: Aselector
+# --
+export const makeSelect${1:name...} = () => createSelector(
+    selectDomain,
+    (data) => $0
+);
